@@ -41,7 +41,7 @@ class App extends React.Component {
   // Put all of the components together.
   render () {
     return (
-      <div>
+      <div className='box content'>
         <h1>{this.state.exampleText}</h1>
         <Button
           label='Celebrate!'
